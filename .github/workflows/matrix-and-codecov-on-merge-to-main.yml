@@ -1,13 +1,10 @@
 name: CI
 
 on:
-  pull_request_target:
+  push:
     branches:
-    - main
-  release:
-    types:
-      - prereleased
-      - published
+      - main
+  pull_request:
   workflow_dispatch:
 
 jobs:
