@@ -255,7 +255,7 @@ class Gui(tk.Frame):
 
     def load_cube(self):
         """
-        loads 3D array in h5py file format from the filename input panel
+        TEST loads 3D array in h5py file format from the filename input panel
         3D array is expected to be a reconstructed reciprocal scattering volume
         when executed, one slide perpendicular to the selected axis will be plotted in the plot panel
         """
