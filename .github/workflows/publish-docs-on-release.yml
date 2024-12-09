@@ -32,7 +32,7 @@ jobs:
           conda config --set always_yes yes
           --set changeps1 no
 
-      - name: Install ${{ inputs.project }} and docs requirements
+      - name: Install diffpy.fourigui and docs requirements
         run: |
           conda install --file requirements/conda.txt
           conda install --file requirements/docs.txt
